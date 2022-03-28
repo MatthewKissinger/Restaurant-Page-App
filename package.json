@@ -1,0 +1,24 @@
+{
+  "name": "restaurant-page-app",
+  "version": "1.0.0",
+  "description": "Restaurant Page App ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewKissinger/Restaurant-Page-App.git"
+  },
+  "author": "Matt Kissinger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatthewKissinger/Restaurant-Page-App/issues"
+  },
+  "homepage": "https://github.com/MatthewKissinger/Restaurant-Page-App#readme",
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
