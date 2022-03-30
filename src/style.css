@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+body {
+    background-image: url('./dinerBackground.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#content {
+    display: grid;
+    grid-template-rows: 20vh 80vh;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+    font-size: 3rem;
+    letter-spacing: 1.2px;
+}
+
+#rest-name {
+    font-family: 'Lobster', cursive;
+    color: #f0d734;
+}
+
+#ampersand {
+    font-size: 3rem;
+    margin-left: .8rem;
+}
+
+#rest-sub-heading {
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+    color: #f0d734;
+    letter-spacing: 2px;
+}
+
+#nav {
+    position: sticky;
+}
+
+#nav-links {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px #00000075;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    gap: 1.2rem;
+    list-style-type: none;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+
+.link:hover {
+    color: #f0d734;
+    cursor: pointer;
+}
+
+#featured-wrapper {
+    width: 400px;
+    height: 400px;
+    border-radius: 12px;
+    padding: 1rem;
+    letter-spacing: .7px;
+    margin: 0 auto;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
