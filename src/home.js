@@ -63,9 +63,9 @@ const pageLoad = function() {
     featuredHeadline.innerHTML = `Home of the World famous <br>'Baked Potato Chili Bowls'`;
 
     let featuredImageWrapper = document.createElement('div');
-    featuredImageWrapper.setAttribute('id', 'featured-image-wrapper');
+    featuredImageWrapper.setAttribute('class', 'image-wrapper');
     let featuredImage = document.createElement('img');
-    featuredImage.setAttribute('id', 'featured-image');
+    featuredImage.setAttribute('class', 'featured-image');
     featuredImage.setAttribute('src', '/src/potato.jpg');
     featuredImage.setAttribute('alt', 'baked potato');
 
@@ -103,9 +103,9 @@ const homeLoad = function() {
     featuredHeadline.innerHTML = `Home of the World famous <br>'Baked Potato Chili Bowls'`;
 
     let featuredImageWrapper = document.createElement('div');
-    featuredImageWrapper.setAttribute('id', 'featured-image-wrapper');
+    featuredImageWrapper.setAttribute('class', 'image-wrapper');
     let featuredImage = document.createElement('img');
-    featuredImage.setAttribute('id', 'featured-image');
+    featuredImage.setAttribute('class', 'featured-image');
     featuredImage.setAttribute('src', '/src/potato.jpg');
     featuredImage.setAttribute('alt', 'baked potato');
 
