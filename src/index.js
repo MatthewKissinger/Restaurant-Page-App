@@ -7,9 +7,17 @@ let clickedLink = '';
 
 pageLoad();
 
+
+
 // cache DOM
 let main = document.querySelector('main');
 const links = document.querySelectorAll('.link');
+
+let menuBtn = document.querySelector('#cta-menu');
+menuBtn.addEventListener('click', function() {
+    main.innerHTML = '';
+    menuLoad();
+})
 
 links.forEach(link => {
     link.addEventListener('click', function() {
@@ -19,14 +27,19 @@ links.forEach(link => {
         switch (clickedLink) {
             case 'Home':
                 homeLoad();
+                let menuBtn = document.querySelector('#cta-menu');
+                menuBtn.addEventListener('click', function() {
+                main.innerHTML = '';
+                menuLoad();
+                })
                 break;
             case 'Menu':
                 menuLoad();
                 break;
-            case 'About': 
+            case 'About Us': 
                 aboutLoad();
                 break;
-            case 'Contact Us':
+            case 'Contact':
                 contactUsLoad();
                 break;
             default:

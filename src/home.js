@@ -34,7 +34,7 @@ const pageLoad = function() {
     navLinks.setAttribute('id', 'nav-links');
 
     let links = [];
-    let linkNames = ['Home', 'Menu', 'About', 'Contact Us'];
+    let linkNames = ['Home', 'Menu', 'About Us', 'Contact'];
 
     for (let i = 0; i <= 3; i++) {
         let link = document.createElement('li');
