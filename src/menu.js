@@ -1,5 +1,12 @@
 // menu page loader from clicking tab
 
+import scrambleImg from './scramble.jpg';
+import avoToastImg from './avocado-toast.jpg';
+import pastramiImg from './pastrami.jpg';
+import burgerImg from './burger.jpg';
+import salmonImg from './salmon.jpg';
+import meatloafImg from './meatloaf.jpg';
+
 const menuItems = [];
 
 function createMenuItem(name, description, price, picture, menuType) {
@@ -12,12 +19,12 @@ function createMenuItem(name, description, price, picture, menuType) {
     }
 }
 
-let breakfast1 = createMenuItem('Scramble', 'Classic 2 egg scamble breakfast with side of toast and home fries', '$12', '../src/scramble.jpg', 'breakfast');
-let breakfast2 = createMenuItem('Avocado Toast', 'This millenial income destroyer is healthy and nutritious. Toast for $12!! You must be crazy!', '$12', '../src/avocado-toast.jpg', 'breakfast');
-let lunch1 = createMenuItem('Pastrami on Rye', `Is there a better sandwich on the planet? I don't think so.`, '$16', '../src/pastrami.jpg', 'lunch');
-let lunch2 = createMenuItem('Double Trouble', `Two all-beef patties on a sesame seed bun... If we continue the song we'll have to lawyer up`, `$15`, '../src/burger.jpg', 'lunch');
-let dinner1 = createMenuItem('Salmon Steak', `You're going to order salmon from a diner?! Your funeral friend`, '$20', '../src/salmon.jpg', 'dinner');
-let dinner2 = createMenuItem('Meatloaf', 'A true American dinner standard. No naps in the booths after the meal please!', '$18', '../src/meatloaf.jpg', 'dinner');
+let breakfast1 = createMenuItem('Scramble', 'Classic 2 egg scamble breakfast with side of toast and home fries', '$12', `${scrambleImg}`, 'breakfast');
+let breakfast2 = createMenuItem('Avocado Toast', 'This millenial income destroyer is healthy and nutritious. Toast for $12!! You must be crazy!', '$12', `${avoToastImg}`, 'breakfast');
+let lunch1 = createMenuItem('Pastrami on Rye', `Is there a better sandwich on the planet? I don't think so.`, '$16', `${pastramiImg}`, 'lunch');
+let lunch2 = createMenuItem('Double Trouble', `Two all-beef patties on a sesame seed bun... If we continue the song we'll have to lawyer up`, `$15`, `${burgerImg}`, 'lunch');
+let dinner1 = createMenuItem('Salmon Steak', `You're going to order salmon from a diner?! Your funeral friend`, '$20', `${salmonImg}`, 'dinner');
+let dinner2 = createMenuItem('Meatloaf', 'A true American dinner standard. No naps in the booths after the meal please!', '$18', `${meatloafImg}`, 'dinner');
 
 menuItems.push(breakfast1);
 menuItems.push(breakfast2);

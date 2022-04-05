@@ -1,8 +1,9 @@
 // Home page 
 
 // ToDo List
-// Add in the location and hours section on the home page
 // Add in the social icons in the lower right of the footer
+
+import potato from './potato.jpg';
 
 const pageLoad = function() {
 
@@ -66,7 +67,7 @@ const pageLoad = function() {
     featuredImageWrapper.setAttribute('class', 'image-wrapper');
     let featuredImage = document.createElement('img');
     featuredImage.setAttribute('class', 'featured-image');
-    featuredImage.setAttribute('src', '/src/potato.jpg');
+    featuredImage.setAttribute('src', `${potato}`);
     featuredImage.setAttribute('alt', 'baked potato');
 
     featuredImageWrapper.appendChild(featuredImage);

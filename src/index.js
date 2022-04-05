@@ -3,6 +3,7 @@ import menuLoad from './menu';
 import aboutLoad from './about';
 import contactUsLoad from './contact';
 import './style.css';
+import background from './dinerBackground.jpg';
 
 let clickedLink = '';
 
@@ -11,6 +12,9 @@ pageLoad();
 
 
 // cache DOM
+let body = document.querySelector('body');
+body.style.backgroundImage = `url(${background})`;
+
 let main = document.querySelector('main');
 const links = document.querySelectorAll('.link');
 
