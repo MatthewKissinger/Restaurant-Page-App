@@ -2,6 +2,7 @@ import { pageLoad, homeLoad } from './home';
 import menuLoad from './menu';
 import aboutLoad from './about';
 import contactUsLoad from './contact';
+import './style.css';
 
 let clickedLink = '';
 
