@@ -107,8 +107,8 @@ const homeLoad = function() {
     featuredImageWrapper.setAttribute('class', 'image-wrapper');
     let featuredImage = document.createElement('img');
     featuredImage.setAttribute('class', 'featured-image');
-    featuredImage.setAttribute('src', '/src/potato.jpg');
-    featuredImage.setAttribute('alt', `${potato}`);
+    featuredImage.setAttribute('src', `${potato}`);
+    featuredImage.setAttribute('alt', `baked potato chili bowl`);
 
     featuredImageWrapper.appendChild(featuredImage);
 
